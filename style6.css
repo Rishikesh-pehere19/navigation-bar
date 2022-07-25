@@ -1,0 +1,97 @@
+
+*{
+    margin: 0px;
+    padding : 0px;
+}
+
+.dfg{
+    background-color: blanchedalmond;
+}
+
+
+.flex{
+  display: flex;
+}
+.navBar{
+  background-color: black;
+  height:40px;
+  width:960px;
+  margin:0 auto;
+}
+.navBar li{
+  
+  list-style-type:none;
+  color:white;
+  width:191px;
+  height:30px;
+  border-right:solid 1px purple;
+  text-align:center;
+  padding-top:10px;
+}
+.navBar li:nth-child(5){
+  border-right:none;
+}
+.navBar li:hover{
+  background-color: #217df5;
+  color:black;
+  cursor:pointer;
+}
+
+
+.navBar2 {
+  background-color: black;
+  height:310px;
+  width:60px;
+  margin:0 auto;
+}
+
+.navBar2 li{
+  list-style-type:none;
+  color:white;
+  width: 60px;
+  height: 50px;
+  border-bottom:solid 1px rgb(255, 65, 7);
+  text-align:center;
+  padding-top:10px;
+}
+.navBar2 li:nth-child(5){
+  border-right:none;
+}
+.navBar2 li:hover{
+  background-color: #86e6e1;
+  color:black;
+  cursor:pointer;
+}
+
+
+.servicelist li{
+  background-color:black ;
+  border-top:solid 1px white;
+  list-style-type:none;
+  color:rgb(141, 86, 192);
+  
+}
+
+.navBar li:nth-child(5){
+  margin-top:5px ;
+}
+.servicelist{
+  display: none; 
+} 
+.servicelist li a {
+  text-decoration: none;
+}
+
+.navBar li:hover .servicelist{
+   display: block;
+ }
+
+
+.graphicslist{
+  transform: translate(192px,-20px) ;
+   display: none; 
+}
+
+.servicelist li:hover .graphicslist{
+  display: block;
+}
